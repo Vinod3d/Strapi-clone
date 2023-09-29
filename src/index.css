@@ -343,7 +343,7 @@ Sidebar
 =============== 
 */
 
-/* .sidebar {
+.sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -353,14 +353,14 @@ Sidebar
 
   opacity: 0;
   visibility: hidden;
-} */
+}
 .show-sidebar {
   opacity: 1;
   visibility: visible;
   transition-property: opacity;
   transition-duration: 1s;
 }
-/* toggle class */
+
 
 .sidebar-container {
   padding: 4rem 2rem;
@@ -377,6 +377,7 @@ Sidebar
   right: 1rem;
   cursor: pointer;
 }
+
 .sidebar article {
   margin-bottom: 2rem;
 }
@@ -385,11 +386,13 @@ Sidebar
   color: var(--primary-700);
 }
 
+
 .sidebar-sublinks {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 0.5rem;
 }
+
 
 .sidebar-sublinks a {
   display: block;
@@ -399,6 +402,7 @@ Sidebar
   align-items: center;
   gap: 1rem;
 }
+
 .sidebar-sublinks svg {
   color: var(--grey-500);
 }
