@@ -1,14 +1,16 @@
-// import {
-//     Fa500Px,
-//     FaAccusoft,
-//     FaAdversal,
-//     FaAvianex,
-//     FaBitcoin,
-//     FaBtc,
-//     FaCodiepie,
-//     FaDocker,
-//     FaGithubSquare,
-//   } from 'react-icons/fa';
+import {
+    Fa500Px,
+    FaAccusoft,
+    FaAdversal,
+    FaAvianex,
+    FaBitcoin,
+    FaBtc,
+    FaChair,
+    FaCodiepie,
+    FaDocker,
+    FaGithubSquare,
+  } from 'react-icons/fa';
+  import { FaAddressBook } from "react-icons/fa6";
   import { nanoid } from 'nanoid';
   
   const sublinks = [
@@ -19,7 +21,7 @@
         {
           id: nanoid(),
           label: 'community',
-          // icon: <Fa500Px />,
+          // icon: <FaAddressBook />,
           url: '/product/community',
         },
         {
@@ -67,8 +69,8 @@
       ],
     },
     {
-      page: 'resources',
       pageId: nanoid(),
+      page: 'resources',
       links: [
         {
           id: nanoid(),
